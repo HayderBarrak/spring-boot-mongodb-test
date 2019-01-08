@@ -21,7 +21,7 @@ public class Product {
         return _id;
     }
 
-    public void setId(ObjectId id) {
+    public void setId(final ObjectId id) {
         this._id = id;
     }
 
@@ -29,7 +29,7 @@ public class Product {
         return description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(final String description) {
         this.description = description;
     }
 
@@ -37,7 +37,7 @@ public class Product {
         return price;
     }
 
-    public void setPrice(BigDecimal price) {
+    public void setPrice(final BigDecimal price) {
         this.price = price;
     }
 
@@ -45,7 +45,7 @@ public class Product {
         return imageUrl;
     }
 
-    public void setImageUrl(String imageUrl) {
+    public void setImageUrl(final String imageUrl) {
         this.imageUrl = imageUrl;
     }
 }
